@@ -1,0 +1,23 @@
+{
+  "name": "runcation-02",
+  "version": "1.0.0",
+  "description": "a site that hopefully works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "node-sass --include-path scss scss/style.scss   css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alb12-la/runcation-02.git"
+  },
+  "author": "Running-Rae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alb12-la/runcation-02/issues"
+  },
+  "homepage": "https://github.com/alb12-la/runcation-02#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

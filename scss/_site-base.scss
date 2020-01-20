@@ -80,6 +80,12 @@ body {
 		outline: none;
 		box-shadow: none!important;
 	}
+	&.btn-secondary {
+		background: $secondary;
+		&:hover{
+			background:darken($secondary,10%);
+		}
+	}
 	&.btn-primary {
 		background: $primary;
 		border-color: $primary;
