@@ -85,7 +85,7 @@
               <div class="col-lg-6">
                 <h1 class="text-white">San Diego </h1>
                 <p class="lead">April 17 - 19th, 2020 </p>
-                <p><a href="#portfolio-section" class="btn smoothscroll btn-secondary">Buy Tickets</a></p>
+                <p><a href="https://www.eventbrite.com/e/runcation-san-diego-tickets-91706804521" class="btn smoothscroll btn-secondary">Buy Tickets</a></p>
 
               </div>
             </div>
@@ -384,6 +384,26 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 heading-section ftco-animate text-center">
+            <div id="eventbrite-widget-container-91706804521"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '91706804521',
+        iframeContainerId: 'eventbrite-widget-container-91706804521',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
             <h2 class="mb-4">Conference Ticket Pricing</h2>
           </div>
         </div>
